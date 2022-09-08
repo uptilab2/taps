@@ -1,0 +1,65 @@
+{
+    "title":"Schema from stats month",
+    "type": "object",
+    "required" : ["date"],
+    "properties":
+     {
+        "date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date of the row"
+        },
+        "monnaie": {
+          "type": "string"
+
+        },
+        "affcpt": {
+          "type": "integer"
+
+        },
+        "affval": {
+          "type": "integer"
+
+        },
+        "clicpt": {
+          "type": "integer"
+
+        },
+        "clival": {
+          "type": "integer"
+
+        },
+        "dclcpt": {
+          "type": "integer"
+
+        },
+        "dclval": {
+          "type": "integer"
+
+        },
+        "foratt": {
+          "type": "number"
+
+        },
+        "forval": {
+          "type": "number"
+
+        },
+        "venatt": {
+          "type": "number"
+
+        },
+        "venval": {
+          "type": "number"
+
+        },
+        "depatt": {
+          "type": "number"
+
+        },
+        "depval": {
+          "type": "number"
+
+        }
+     }
+}

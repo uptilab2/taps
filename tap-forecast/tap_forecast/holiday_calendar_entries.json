@@ -1,0 +1,72 @@
+{
+    "type": [
+        "null",
+        "object"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": [
+              "integer"
+            ]
+        },
+        "holiday_calendar_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "year": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "month": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "day": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "null",
+                "integer"
+            ],
+            "description": "ID of person"
+        },
+        "updated_by": {
+            "type": [
+                "null",
+                "integer"
+            ],
+            "description": "ID of person"
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        }
+    }
+}

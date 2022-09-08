@@ -1,0 +1,72 @@
+{
+    "title":"Schema from stats campain",
+    "type": "object",
+    "required" : ["idcamp"],
+    "properties":
+     {
+        "date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The date of the row"
+        },
+        "idcamp": {
+          "type": "integer"
+         },
+        "nomcamp": {
+          "type": "string"
+
+        },
+        "monnaie": {
+          "type": "string"
+
+        },
+        "affcpt": {
+          "type": "integer"
+
+        },
+        "affval": {
+          "type": "integer"
+
+        },
+        "clicpt": {
+          "type": "integer"
+
+        },
+        "clival": {
+          "type": "integer"
+
+        },
+        "dclcpt": {
+          "type": "integer"
+
+        },
+        "dclval": {
+          "type": "integer"
+
+        },
+        "foratt": {
+          "type": "number"
+
+        },
+        "forval": {
+          "type": "number"
+
+        },
+        "venatt": {
+          "type": "number"
+
+        },
+        "venval": {
+          "type": "number"
+
+        },
+        "depatt": {
+          "type": "number"
+
+        },
+        "depval": {
+          "type": "number"
+
+        }
+     }
+}

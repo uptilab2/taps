@@ -1,0 +1,13 @@
+{
+  "name": "orders",
+  "replication_method": "FULL_TABLE",
+  "_replication_key": "modifiedDate",
+  "_replication_method": "INCREMENTAL",
+  "key_properties": ["guid"],
+    "schema": "orders",
+    "postman": {
+            "filename": "orders",
+            "item": "Orders bulk"
+        }
+
+}

@@ -1,3 +1,4 @@
+include LICENSE
 include tap_toast/schemas/*.json
 include tap_toast/schemas/shared/*.json
 include tap_toast/postman/*.json

@@ -16,11 +16,11 @@ setup(
     ],
     entry_points="""
     [console_scripts]
-    tap-pinterest=tap-pinterest:main
+    tap-pinterest=tap_pinterest:main
     """,
     packages=["tap_pinterest"],
     package_data={
-        "schemas": ["tap-pinterest/schemas/*.json"]
+        "schemas": ["tap_pinterest/schemas/*.json"]
     },
     include_package_data=True,
 )

@@ -26,8 +26,7 @@
       "type": ["null", "string"]
     },
     "associated-company" : {
-        "type": ["null", "object"],
-        "properties" : {}
+        "type": ["null", "string"]
     },
     "identity-profiles": {
         "type": ["null", "array"],
